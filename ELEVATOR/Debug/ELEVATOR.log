@@ -1,0 +1,40 @@
+﻿生成启动时间为 2022-08-13 18:18:04。
+     1>项目“C:\Users\x5012\Desktop\ELEVATOR\ELEVATOR\ELEVATOR.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\ELEVATOR.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ControlEle.cpp Date.cpp Elevator.cpp main.cpp Passengers.cpp Record.cpp Time.cpp
+         Time.cpp
+         Record.cpp
+         Passengers.cpp
+     1>c:\users\x5012\desktop\elevator\elevator\passengers.cpp(10): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+         main.cpp
+         Elevator.cpp
+     1>c:\users\x5012\desktop\elevator\elevator\elevator.cpp(94): warning C4305: “=”: 从“int”到“char”截断
+     1>c:\users\x5012\desktop\elevator\elevator\elevator.cpp(94): warning C4309: “=”: 截断常量值
+     1>c:\users\x5012\desktop\elevator\elevator\elevator.cpp(456): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>c:\users\x5012\desktop\elevator\elevator\elevator.cpp(886): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+         Date.cpp
+         ControlEle.cpp
+         正在生成代码...
+     1>c:\users\x5012\desktop\elevator\elevator\elevator.cpp(701): warning C4715: “Elevator::PedestrianVolume”: 不是所有的控件路径都返回值
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\x5012\Desktop\ELEVATOR\Debug\ELEVATOR.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ELEVATOR.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\x5012\Desktop\ELEVATOR\Debug\ELEVATOR.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\x5012\Desktop\ELEVATOR\Debug\ELEVATOR.lib" /MACHINE:X86 Debug\ControlEle.obj
+         Debug\Date.obj
+         Debug\Elevator.obj
+         Debug\main.obj
+         Debug\Passengers.obj
+         Debug\Record.obj
+         Debug\Time.obj
+         LINK : 没有找到 C:\Users\x5012\Desktop\ELEVATOR\Debug\ELEVATOR.exe 或上一个增量链接没有生成它；正在执行完全链接
+         ELEVATOR.vcxproj -> C:\Users\x5012\Desktop\ELEVATOR\Debug\ELEVATOR.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\x5012\Desktop\ELEVATOR\Debug\ELEVATOR.exe;#1" /manifest Debug\ELEVATOR.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\ELEVATOR.unsuccessfulbuild”。
+         正在对“Debug\ELEVATOR.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\x5012\Desktop\ELEVATOR\ELEVATOR\ELEVATOR.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.65
